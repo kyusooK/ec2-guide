@@ -1,9 +1,8 @@
 # EC2 Guide
 
 ## EC2 인스턴스 생성
-- EC2 인스턴스를 생성하기 위해 다음의 URL에 접속한다.
-  https://eu-west-2.console.aws.amazon.com/ec2/home?region=eu-west-2#Home:
-
+- EC2 인스턴스 생성을 위해 다음의 URL에 접속한다. <br>
+https://eu-west-2.console.aws.amazon.com/ec2/home?region=eu-west-2#Home:
 - 이후, 좌측 메뉴 인스턴스 -> 인스턴스 시작을 클릭하면 인스턴스 생성 페이지가 나타난다.
 - 이름을 설정하고 애플리케이션 및 OS 이미지 - quick start에서 Ubuntu를 선택한다.
 - 이때,아래와같은 Amazon Machine Image(AMI)이 선택되었는지 확인한다.
@@ -21,4 +20,7 @@
   유형: 사용자 지정 TCP <br>
   포트 범위: 8080 <br>
   소스: 0.0.0.0/0 <br>
-- ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/d59356ae-4f5c-42ea-8ac3-8858f9490c8b)
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/d59356ae-4f5c-42ea-8ac3-8858f9490c8b)
+
+## EC2 접속
+로컬 터미널로 생성한 인스턴스에 접속하는 방법은 다음과 같다. 
