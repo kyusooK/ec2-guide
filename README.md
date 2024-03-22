@@ -24,3 +24,13 @@ https://eu-west-2.console.aws.amazon.com/ec2/home?region=eu-west-2#Home:
 
 ## EC2 접속
 로컬 터미널로 생성한 인스턴스에 접속하는 방법은 다음과 같다. 
+- 먼저 생성된 키 페어의 경로로 이동한다.
+- 다음의 명령어를 입력하여 EC2에 접속한다. 이때, ec2-dns-주소는 생성한 인스턴스의 세부정보에서 확인할 수 있다.
+```
+$ ssh -i {your-pem-file.pem} ubuntu@{your-ec2 dns 주소}
+```
+* Permission Denied이 출력된 경우 키 페어 경로로 이동하였는지 확인하고 이동하였다면 다음의 명령어를 통해 권한을 부여한 후 다시 접속 명령어를 입력한다.
+```
+chmod 600 {your-pem-file.pem}
+```
+정상적으로 접속이 되었다면 ubuntu@ip-xxx.~로 터미널 프롬프트가 변경된 것을 확인할 수 있다.
