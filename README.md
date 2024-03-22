@@ -29,8 +29,8 @@ https://eu-west-2.console.aws.amazon.com/ec2/home?region=eu-west-2#Home:
 ```
 $ ssh -i {your-pem-file.pem} ubuntu@{your-ec2 dns 주소}
 ```
-* Permission Denied이 출력된 경우 키 페어 경로로 이동하였는지 확인하고 이동하였다면 다음의 명령어를 통해 권한을 부여한 후 다시 접속 명령어를 입력한다.
+* Permission Denied이 출력된 경우 키 페어 경로로 이동하였는지 확인하고 이동하였다면 다음의 명령어를 통해 권한을 부여한 후 다시 접속을 시도한다.
 ```
 chmod 600 {your-pem-file.pem}
 ```
-정상적으로 접속이 되었다면 ubuntu@ip-xxx.~로 터미널 프롬프트가 변경된 것을 확인할 수 있다.
+정상적으로 접속이 되었다면 ubuntu@ip-프라이빗 IPv4 주소 로 터미널 프롬프트가 변경된 것을 확인할 수 있다.
