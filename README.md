@@ -20,7 +20,7 @@
     - 유형: 사용자 지정 <br>
     - 원본: 0.0.0.0/0 <br>
     - 포트범위: 8080 <br>
-![image](https://github.com/kyusooK/ec2-guide/assets/123912988/c24fd6db-4b01-4817-9efc-f3002c601020)
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b07c8d9a-b4d9-45da-b969-08b5325b0cb9)
 
 - 보안그룹까지 생성되었다면 '인스턴스 시작'을 클릭하여 인스턴스를 생성한다.
 
