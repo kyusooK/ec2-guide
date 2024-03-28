@@ -6,8 +6,12 @@
 - 이름을 설정하고 애플리케이션 및 OS 이미지 - quick start에서 Ubuntu를 선택한다.
 - 이때,아래와같은 Amazon Machine Image(AMI)이 선택되었는지 확인한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/fe02d94c-4719-4ee7-8358-ae7e1820446f)
-- 인스턴스 유형에 아래와 같이 't3.medium'으로 설정한다.
+
+### 인스턴스 유형 
+- 인스턴스 유형은 아래와 같이 't3.medium'으로 설정한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b18c0484-df52-4f71-891c-8e000c531344)
+
+### 키 페어 설정
 - 키 페어(로그인) 옵션에서 아래와 같이 '키 페어 없이 계속진행'을 선택한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/50f0f295-5dae-4523-957d-afcf3caa9bde)
 
