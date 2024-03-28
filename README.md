@@ -6,11 +6,10 @@
 - 이름을 설정하고 애플리케이션 및 OS 이미지 - quick start에서 Ubuntu를 선택한다.
 - 이때,아래와같은 Amazon Machine Image(AMI)이 선택되었는지 확인한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/fe02d94c-4719-4ee7-8358-ae7e1820446f)
-- 키 페어 - 새 키 페어 생성을 클릭한 후 아래의 화면에서 키 페어 이름을 설정한 후 키 페어 생성을 클릭한다.
-![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b9b60af8-5880-45c2-98dd-e8abdc48fc8b)
-- 인스턴스 유형에 아래와 같이 설정되어있는지 확인한다.
-![image](https://github.com/kyusooK/ec2-guide/assets/123912988/05156416-d208-419d-855a-3493a12d7eef)
-- 이후 인스턴스 시작을 누르면 인스턴스가 생성된다.
+- 인스턴스 유형에 아래와 같이 't3.medium'으로 설정한다.
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b18c0484-df52-4f71-891c-8e000c531344)
+- 이후 인스턴스 시작을 누르면 인스턴스가 생성되기전 키 페어 생성에 대하여 안내를 하는데 이때, 아래와 같이 키 페어 없이 생성을 진행한다.
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/bc268eea-213e-4e35-801b-9f8e45f3ad5e)
 
 ## 보안그룹 생성
 - 생성한 인스턴스를 클릭하면 인스턴스의 세부정보가 나타난다. 여기서 보안 -> 보안그룹을 클릭하여 인스턴스와 연결된 보안그룹으로 이동한다.
