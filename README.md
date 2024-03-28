@@ -8,7 +8,7 @@
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/fe02d94c-4719-4ee7-8358-ae7e1820446f)
 - 인스턴스 유형에 아래와 같이 't3.medium'으로 설정한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b18c0484-df52-4f71-891c-8e000c531344)
-- 이후 인스턴스 시작을 누르면 인스턴스가 생성되기전 키 페어 생성에 대하여 안내를 하는데 이때, 아래와 같이 키 페어 없이 생성을 진행한다.
+- 이후 인스턴스 시작을 누르면 인스턴스가 생성되기전 아래와 같은 화면이 나타나며 이때, '키 페어 없이 계속 진행'을 클릭한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/bc268eea-213e-4e35-801b-9f8e45f3ad5e)
 
 ## 보안그룹 생성
