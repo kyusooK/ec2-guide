@@ -1,7 +1,7 @@
 # EC2 Guide
 
 ## EC2 인스턴스 생성
-- EC2 인스턴스 생성을 위해 다음의 URL에 접속(https://aws.amazon.com/ko/console/) > 로그인 > 검색창에 'EC2'를 검색한다.
+- EC2 인스턴스 생성을 위해 다음의 URL에 접속(https://aws.amazon.com/ko/console/) > 로그인 > 검색창에 'EC2'를 검색하여 클릭한다.
 - 이후 화면에 보이는 인스턴스 시작을 클릭하면 인스턴스 생성 페이지가 나타난다.
 - 이름을 설정하고 애플리케이션 및 OS 이미지 - quick start에서 Ubuntu를 선택한다.
 - 이때,아래와같은 Amazon Machine Image(AMI)이 선택되었는지 확인한다.
