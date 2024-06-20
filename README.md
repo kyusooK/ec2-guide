@@ -33,3 +33,17 @@
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b98c7790-5909-482a-9bc1-8569daf384c4)
 - 아래와 같이 인스턴스 연결 설정에 대하여 'EC2 Instance Connect을 사용하여 연결' > 연결을 진행하면 웹 상에서 생성한 인스턴스에 접속할 수 있다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/dc77b247-7a1f-4acb-862c-78a289dccaa1)
+
+- 연결도중 아래와 같이 서브넷관련 오류가 발생한다면 다음과 같이 진행한다.
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/230fe262-ee97-4882-90b9-f6bc126d0195)
+
+
+1. 아래와 같이 생성된 인스턴스의 서브넷을 클릭한다.
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/66d891e4-74b0-4827-9907-16160719c973)
+
+2. 해당 서브넷의 라우팅 테이블을 수정하기 위해 라우팅 테이블 탭 > '라우팅 테이블 연결 편집'을 클릭한다.
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/e4f1d3aa-4d40-4d0e-969a-d2c1fbba1a30)
+
+3. 라우팅 테이블 ID중 'PublicRouteTable'ID를 선택 후 저장 후, 인스턴스 연결을 진행한다.
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/fe9538ac-21ff-40a4-9253-8684f68fe782)
+
