@@ -28,14 +28,15 @@
 
 - 보안그룹까지 생성되었다면 '인스턴스 시작'을 클릭하여 인스턴스를 생성한다.
 
-## 인스턴스 연결
+### 인스턴스 연결
 - 인스턴스가 생성되면 아래와 같은 화면이 나타나는데, 아래 옵션 중 '인스턴스에 연결'을 클릭한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b98c7790-5909-482a-9bc1-8569daf384c4)
 - 아래와 같이 인스턴스 연결 설정에 대하여 'EC2 Instance Connect을 사용하여 연결' > 연결을 진행하면 웹 상에서 생성한 인스턴스에 접속할 수 있다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/dc77b247-7a1f-4acb-862c-78a289dccaa1)
 
 
-### 연결도중 아래와 같이 서브넷관련 오류가 발생한다면 다음과 같이 진행한다.
+### Subnet TroubleShooting
+- 연결도중 아래와 같이 서브넷관련 오류가 발생한다면 다음과 같이 진행한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/bb9110d3-36ad-4a29-b13a-b77c986f567d)
 
 1. 생성된 인스턴스의 서브넷을 클릭한다.
