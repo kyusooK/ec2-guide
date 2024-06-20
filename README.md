@@ -41,7 +41,7 @@
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/bb9110d3-36ad-4a29-b13a-b77c986f567d)
 
 1. 생성된 인스턴스의 서브넷을 클릭한다.<br>
-![image](https://github.com/kyusooK/ec2-guide/assets/123912988/66d891e4-74b0-4827-9907-16160719c973)<br>
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b77d70eb-d357-48aa-b7c4-5ef7254c6d6e)<br>
 
 2. 해당 서브넷의 라우팅 테이블을 수정하기 위해 라우팅 테이블 탭 > '라우팅 테이블 연결 편집'을 클릭한다.
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/e4f1d3aa-4d40-4d0e-969a-d2c1fbba1a30)
