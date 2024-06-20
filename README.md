@@ -17,10 +17,14 @@
 
 ### 보안그룹 생성
 - 네트워크 설정 > 편집 > 인바운드 보안 그룹 규칙 > 보안그룹 규칙 추가에서 아래과 같이 8080 port에 대한 인바운드 규칙을 추가한다.
+
     - 유형: 사용자 지정TCP <br>
     - 소스유형: 위치무관 <br>
     - 포트범위: 8080 <br>
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/b07c8d9a-b4d9-45da-b969-08b5325b0cb9)
+
+* 퍼블릭 IP 자동 할당이 비활성화 되어 있을 경우 아래와 같이 활성화로 변경한다. 
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/8eeba75c-a664-4dd3-b95a-3f7ef8b80fc7)
 
 - 보안그룹까지 생성되었다면 '인스턴스 시작'을 클릭하여 인스턴스를 생성한다.
 
