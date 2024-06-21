@@ -19,7 +19,7 @@
 - 네트워크 설정 > 편집을 통해 다음과 같이 설정한다.
 
 1. 아래와 같이 생성한 클러스터의 이름과 동일한 VPC를 선택한다.
-![image](https://github.com/kyusooK/ec2-guide/assets/123912988/00a54fbc-23e7-4cd9-aac3-4db2843efa28)
+![image](https://github.com/kyusooK/ec2-guide/assets/123912988/010549d0-0d97-49d3-ad6d-9da7feca7fcb)
 
 2. 퍼블릭 IP 자동 할당이 비활성화 되어 있을 경우 아래와 같이 활성화로 변경한다. 
 ![image](https://github.com/kyusooK/ec2-guide/assets/123912988/8eeba75c-a664-4dd3-b95a-3f7ef8b80fc7)
